@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="icon"
+      type="image/png"
+      href="img/edlogo.PNG">
+    <title>GameStats</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.min.css" rel="stylesheet">
+    <style type="text/css">
+        html,
+        body,
+        header,
+        .carousel {
+            height: 100%;
+        }
+
+        @media (min-width: 800px) and (max-width: 850px) {
+            .navbar:not(.top-nav-collapse) {
+                background: #1C2331 !important;
+            }
+        }
+
+    </style>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Wruczek/Bootstrap-Cookie-Alert@gh-pages/cookiealert.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+    <div class="container">
+
+
+        <!-- Collapse -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Links -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <!-- Right -->
+            <ul class="navbar-nav nav-flex-icons">
+                <li class="nav-item">
+                    <a href="#contact"
+                       class="nav-link border border-light rounded"
+                       >Skontaktuj się z nami!
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+
+    </div>
+</nav>
+<!-- Navbar -->
+
+<!--Carousel Wrapper-->
+<div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
+
+    <!--Slides-->
+    <div class="carousel-inner" role="listbox">
+
+        <!--First slide-->
+        <div class="carousel-item active">
+            <div class="view">
+
+                <!--Video source-->
+                <video class="video-intro" autoplay loop muted>
+                    <source src="img/campo.mp4" type="video/mp4">
+                </video>
+
+                <!-- Mask & flexbox options-->
+                <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+                    <!-- Content -->
+                    <div class="text-center white-text mx-5 wow fadeIn">
+                        <p class="display-4 mb-4">
+                            Analiza gry Twojej drużyny w czasie rzeczywistym.
+                        </p>
+
+                        <p class="lead mt-5 mb-6">
+                            Spójrz na boisko z wyższego poziomu.
+                        </p>
+
+                        <a href="#about"
+                           class="btn btn-outline-white btn-lg">Dowiedz się więcej
+                        </a>
+                    </div>
+                    <!-- Content -->
+
+                </div>
+                <!-- Mask & flexbox options-->
+
+            </div>
+        </div>
+        <!--/First slide-->
+
+    </div>
+    <!--/.Slides-->
+
+</div>
+<!--/.Carousel Wrapper-->
+
+<!--Main layout-->
+<main>
+    <div class="container">
+
+        <!--Section: Not enough-->
+        <section id="about">
+
+            <h2 class="my-5 h3 text-center">GameStats - jak to działa?</h2>
+
+            <!--First row-->
+            <div class="row features-small mb-5 mt-3 wow fadeIn">
+
+                <!--First column-->
+                <div class="col-md-4">
+                    <h4 class="text-center">1. Nagraj mecz/trening Twojej drużyny</h4>
+                    <!--First row-->
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <img class="img-fluid" src="img/drone.svg" alt="" style="max-height: 250px;">
+                        </div>
+                    </div>
+                    <!--/First row-->
+
+                    <!--Second row-->
+                    <div class="row mt-3">
+                        <div class="col-12">
+                            <p class="grey-text text-justify">Nagraj fragment meczu/ treningu, który chcesz
+                                przenalizować pod kątem zachowań drużyny, bądź
+                                poszczególnych zawodników.<br>
+                                Nie posiadasz drona albo uprawnień? Kliknij <a href="#FAQ">tutaj</a>, gdzie opisujemy
+                                jak rozwiązać ten problem.
+                            </p>
+                            <div style="height:15px"></div>
+                        </div>
+                    </div>
+                    <!--/Second row-->
+
+                </div>
+                <!--/First column-->
+
+                <!--Second column-->
+                <div class="col-md-4">
+                    <h4 class="text-center">2. Skorzystaj z oprogramowania oraz aplikacji GameStats</h4>
+                    <!--First row-->
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <img class="img-fluid" src="img/applications.svg" alt="" style="max-height: 250px;">
+                        </div>
+                    </div>
+                    <!--/First row-->
+
+                    <!--Second row-->
+                    <div class="row mt-3">
+                        <div class="col-12">
+                            <p class="grey-text text-justify">
+                                Wgraj video do aplikacji, która przeanalizuje dokładnie wskazane przez Ciebie elementy gry. Skorzystaj z danych historycznych aby
+                                porównać postęp Twojej drużyny.<br>
+                                Więcej o oprogramowaniu <a href="#FAQ">tutaj</a>.
+                            </p>
+                            <div style="height:15px"></div>
+                        </div>
+                    </div>
+                    <!--/Second row-->
+
+                </div>
+                <!--/Second column-->
+
+                <!--Third column-->
+                <div class="col-md-4">
+                    <h4 class="text-center">3. Przekaż wnioski swojej drużynie</h4>
+                    <!--First row-->
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <img class="img-fluid" src="img/presentation.svg" alt="" style="max-height: 250px;">
+                        </div>
+                    </div>
+                    <!--/First row-->
+
+                    <!--Second row-->
+                    <div class="row mt-3">
+                        <div class="col-12">
+
+                            <p class="grey-text text-justify">
+                                Oprogramowanie przeanalizuje wybrane przez Ciebie fragmenty gry i wyświetli wyniki opisujące
+                                zachowania Twojej drużyny oraz poszczególnych graczy.
+                                Wszystko w formie gotowej do przekazania Twoim zawodnikom!
+                            </p>
+                            <div style="height:15px"></div>
+                        </div>
+                    </div>
+                    <!--/Second row-->
+
+                </div>
+                <!--/Third column-->
+
+            </div>
+            <!--/First row-->
+
+        </section>
+        <!--Section: Not enough-->
+
+        <hr class="my-5">
+
+        <!--Section: Main features & Quick Start-->
+        <section>
+
+
+            <h4 class="h3 text-center mb-5">Oprogramowanie GameStats - zamień obraz z treningu na zrozumiałe dane.</h4>
+
+            <!--Grid row-->
+            <div class="row wow fadeIn">
+
+                <!--Grid column-->
+                <div class="col-xs-12 col-lg-12 col-md-12 px-4">
+
+                    <!--First row-->
+                    <div class="row">
+                        <div class="col-xs-12 col-md-4">
+                            <h5 class="feature-title">1. Oprogramowanie dostępne na Twoim urzadzeniu</h5>
+                            <p class="grey-text text-justify">Program jest dostępny w przeglądarce, co ułatwi Ci jego
+                                użycie oraz przekazanie informacji zawodnikom.
+                                Podstawowe funkcje programu:
+                            <ul class="text-justify">
+                                <li class="text-justify">Analiza nagrań bezpośrednio po wgraniu video.</li>
+                                <li class="text-justify">Obliczanie statystyk na temat zachowań drużyny.</li>
+                                <li class="text-justify">Obliczanie indywidualnych statystyk graczy.</li>
+                                <li class="text-justify">Definiowanie automatycznych raportów wykonywanych dla konktenych elementów treningu/meczu.</li>
+                                <li class="text-justify">Porównanie postępu drużyny poprzez podgląd do danych historycznych.</li>
+                            </ul>
+                        </div>
+                        <div class="col-xs-12 col-md-8">
+                            <img src="img/rendercomp.PNG" class="img-fluid" alt="">
+                        </div>
+
+                    </div>
+                    <!--/First row-->
+
+                    <!--First row-->
+                    <div class="row mt-5">
+
+                        <div class="d-flex col-xs-12 col-md-4 justify-content-center">
+                            <img src="img/renderiphone.PNG" class="img-fluid" alt="" style="max-height: 500px;">
+                        </div>
+
+                        <div class="col-xs-12 col-md-4">
+                            <h5 class="feature-title">2. Wersja mobilna oprogramowania - dostęp do informacji w każdym momencie</h5>
+                            <p class="grey-text text-justify">Wiemy, że zawód menadżera/trenera wiąże się przede wszystkim z pracą na boisku.
+                                Dlatego oferujemy w pełni funkcjonalną progresywną aplikację umożliwiającą ciągły podgląd sytuacji. </p>
+                                <ul class="text-justify">
+                                <li class="text-justify">Dostęp do raportów wygenerowanych poprzez oprogramowanie.</li>
+                                <li class="text-justify">Dostęp do danych historycznych i video.</li>
+                                <li class="text-justify">Możliwość komunikacji z zawodnikami i przekazywanie im wniosków z konkretnych zagrań.</li>
+                                <li class="text-justify">Aplikacja dostępna na telefony z Androidem orax iOS.</li>
+                            </ul>
+                        </div>
+
+                        <div class="d-flex col-xs-12 col-md-4 justify-content-center">
+                            <img src="img/renderiphone2.PNG" class="img-fluid" alt="" style="max-height: 500px;">
+                        </div>
+                    </div>
+                    <!--/First row-->
+
+                </div>
+                <!--/Grid column-->
+
+            </div>
+            <!--/Grid row-->
+
+        </section>
+        <!--Section: Main features & Quick Start-->
+
+        <hr class="mb-5">
+
+        <!--Section: More-->
+        <section id="contact">
+
+            <h2 class="my-3 h3 text-center">Chcesz spróbować GameStats? </h2>
+            <p class="text-center"> Chcesz zaczać używać naszego oprogramowania? Uzupełnij formularz poniżej, a
+                odezwiemy się wkrótce i ustalimy termin pierwszego treningu.</p>
+
+            <!--First row-->
+            <div class="row d-flex justify-content-center">
+
+                <div class="col-xs-12 col-md-6">
+                    <form class="row gap-y" action="https://formspree.io/filip.geppert@gmail.com"
+                      method="POST">
+
+                        <div class="col-lg-12">
+
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <input class="form-control form-control-lg"
+                                           type="text"
+                                           name="firstname"
+                                           placeholder="Imie"
+                                           id="name">
+                                </div>
+
+                                <div class="form-group col-md-6">
+                                    <input
+                                            class="form-control form-control-lg"
+                                            type="text"
+                                            name="_surname"
+                                            placeholder="Nazwisko"
+                                            id="surname">
+                                </div>
+
+                                <div class="form-group col-md-12">
+                                    <input
+                                            class="form-control form-control-lg"
+                                            type="text"
+                                            name="_replyto"
+                                            placeholder="Email/ numer telefonu"
+                                            id="email">
+                                </div>
+
+                            </div>
+
+                            <div class="form-group">
+                                <textarea class="form-control form-control-lg"
+                                          rows="4"
+                                          type="text"
+                                          placeholder="Opcjonalna wiadomość do nas. Odpiszemy asap!:)"
+                                          name="message">
+
+                                </textarea>
+                            </div>
+
+                            <button class="btn btn-lg btn-primary" type="submit" value="Send">
+                                Udanego treningu!
+                            </button>
+                            <input type="hidden" name="_next" value="/thanks.html" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!--/First row-->
+        </section>
+        <!--Section: More-->
+
+        <hr class="mb-5">
+
+        <!--Section: FAQ -->
+        <section id="FAQ">
+            <h2 class="my-3 h3 text-center">Często zadawane pytania:</h2>
+            <div class="accordion" id="accordionExample">
+                <div class="card">
+                    <div class="card-header bg-white" id="headingOne">
+                        <h5 class="mb-0 text-center">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                                    aria-expanded="true" aria-controls="collapseOne">
+                                Kto może użyć GameStats?
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
+                         data-parent="#accordionExample">
+                        <div class="card-body">
+                            GameStats jest skierowane przede wszystkim dla:
+                            <ul>
+                                <li><b>Trenerów piłki nożnej</b> - do celu monitoringu zagrań i postępu swojej drużyny bez konieczności kupowania zaawansowanych systemów
+                                monitoringu.</li>
+                                <li><b>Zawodników</b> - zainteresowanych śledzeniem ich indywydualnego postępu przede wszystkim pod kątem wskaźników indywidualnych.</li>
+                                <li><b>Menadżerów zawodników</b> - chcącym pomóc swoim podopiecznym monitorować swój postęp. </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header bg-white" id="headingTwo">
+                        <h5 class="mb-0 text-center">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                    data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Czy muszę mieć drona żeby używać oprogramowania?
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                        <div class="card-body">
+                            Jeśli nie posiadasz drona bądź uprawnień do nagrywania Twojej drużyny to skontaktuj się z nami, a pomożemy Ci albo w uzyskaniu niezbędnych
+                            uprawnień/szkoleniu, albo w wynajęciu operatora drona, który zajmie się nagraniami video.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header bg-white" id="headingThree">
+                        <h5 class="mb-0 text-center">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                    data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Czy mogę wynająć specjalistę od nagrywania dronem?
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <p>
+                                Oczywiście! Napisz do nas, a wynajmiemy dla Ciebie operatora drona, który zajmie się nagraniami video.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header bg-white" id="headingFour">
+                        <h5 class="mb-0 text-center">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                    data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                Jak analizowane jest video mojej drużyny?
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+                         data-parent="#accordionExample">
+                        <div class="card-body">
+                            Obraz z video jest przetwarzany na statystyki podobne do tych widzianych podczas meczu piłki nożnej. Ponadto,
+                            statystyki są rozszerzone o wzkaźniki indywidualne m.in. czas zawodnika przy piłce, liczba podań celnych czy
+                            średni czas kontaktu z piłką.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header bg-white" id="headingFive">
+                        <h5 class="mb-0 text-center">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                    data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                Ile kosztuje GameStats?
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
+                         data-parent="#accordionExample">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col text-center">
+                                    <h3>Jeśli jesteś trenerem/ menadżerem:</h3>
+                                </div>
+                            </div>
+
+                            <div class="d-flex row justify-content-center">
+                              <!-- Free Tier -->
+                              <div class="col-xs-12 col-lg-5">
+                                <div class="card mb-5 mb-lg-0">
+                                  <div class="card-body">
+                                      <h5 class="card-title text-muted text-uppercase text-center">Licencja miesięczna</h5>
+                                    <h6 class="card-price text-center">49.99 zł/miesiąc</span></h6>
+                                    <hr>
+                                      <ul class="fa-ul">
+                                          <li><span class="fa-li"><i class="fas fa-check"></i></span>Jeden użytkownik o
+                                              statusie trenera
+                                          </li>
+                                          <li><span class="fa-li"><i class="fas fa-check"></i></span>5GB dostępu do
+                                              danych w chmurze
+                                              <i class="fas fa-info-circle blue-text" tooltip-glyph="glyph-tooltip-demo"
+                                                 data-original-title="Możliwość rozszerzenia pakietu."></i></a>
+                                          </li>
+                                          <li><span class="fa-li"><i class="fas fa-check"></i></span>Aplikacja mobilna
+                                          </li>
+                                          <li><span class="fa-li"><i class="fas fa-check"></i></span>Aplikacja webowa
+                                          </li>
+                                          <li><span class="fa-li"><i class="fas fa-check"></i></span>Automatyczne
+                                              raporty
+                                          </li>
+                                          <li><span class="fa-li"><i class="fas fa-check"></i></span>Wsparcie techniczne
+                                          </li>
+                                          <li><span class="fa-li"><i class="fas fa-check"></i></span>Możliwość dodania
+                                              15 zawodników do jednej drużyny
+                                          </li>
+                                      </ul>
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- Plus Tier -->
+                              <div class="col-xs-12 col-lg-5">
+                                <div class="card mb-5 mb-lg-0">
+                                  <div class="card-body">
+                                    <h5 class="card-title text-muted text-uppercase text-center">Licencja roczna</h5>
+                                    <h6 class="card-price text-center">39.99/miesiąc
+                                    <a href="#">
+                                        <i class="fas fa-info-circle blue-text" tooltip-glyph="glyph-tooltip-demo"
+                                           data-original-title="Przy zakupie licencji na rok."></i></a>
+                                    </h6>
+                                    <hr>
+                                      <ul class="fa-ul">
+                                          <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>2
+                                              Użytkowników o statusie trenera</strong></li>
+                                          <li><span class="fa-li"><i class="fas fa-check"></i></span>10GB dostępu do
+                                              danych w chmurze
+                                              <i class="fas fa-info-circle blue-text" tooltip-glyph="glyph-tooltip-demo"
+                                                 data-original-title="Możliwość rozszerzenia pakietu."></i></a>
+
+                                          </li>
+                                          <li><span class="fa-li"><i class="fas fa-check"></i></span>Aplikacja mobilna
+                                          </li>
+                                          <li><span class="fa-li"><i class="fas fa-check"></i></span>Aplikacja webowa
+                                          </li>
+                                          <li><span class="fa-li"><i class="fas fa-check"></i></span>Automatyczne
+                                              raporty
+                                          </li>
+                                          <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Możliwość
+                                              dodania nieograniczonej liczby zawodników
+                                          </strong></li>
+                                          <li><span class="fa-li"><i class="fas fa-check"></i></span>Wsparcie techniczne
+                                          </li>
+                                      </ul>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col text-center mt-5">
+                                    <h3>Jeśli jesteś zawodnikiem:</h3>
+                                    <h5><strong>Dostęp zawodników do aplikacji GameStats jest całkowicie darmowy.</strong></h5>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- START Bootstrap-Cookie-Alert -->
+    <div class="alert text-center cookiealert" role="alert">
+        <b>Używamy cookies to poprawienia komfortu użytkowania strony.
+
+        <button type="button" class="btn btn-primary btn-sm acceptcookies" aria-label="Close">
+            Zgadzam się
+        </button>
+    </div>
+    <!-- END Bootstrap-Cookie-Alert -->
+</main>
+<!--Main layout-->
+
+<!--Footer-->
+<footer class="page-footer text-center  mt-4 ">
+
+    <!--Copyright-->
+    <div class="footer-copyright py-3">
+        © 2019 Build on Data Sp. z o.o. Wszelkie prawa zastrzerzone.
+    </div>
+    <!--/.Copyright-->
+
+</footer>
+<!--/.Footer-->
+
+<!-- SCRIPTS -->
+<!-- JQuery -->
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="js/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="js/mdb.min.js"></script>
+<!-- Initializations -->
+<script type="text/javascript">
+    // Animations initialization
+    new WOW().init();
+
+</script>
+<script src="https://cdn.jsdelivr.net/gh/Wruczek/Bootstrap-Cookie-Alert@gh-pages/cookiealert.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+    $('[tooltip-glyph="glyph-tooltip-demo"]').tooltip({
+        placement : 'top'
+    });
+});
+</script>
+</body>
+
+</html>
